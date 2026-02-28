@@ -92,7 +92,6 @@ $(document).ready(function(){initNavTree('classPurrNet_1_1Modules_1_1BroadcastMo
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classPurrNet_1_1Modules_1_1BroadcastModule-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">PurrNet.Modules.BroadcastModule Class Reference</div></div>
@@ -120,18 +119,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a347db2a0695072fdf8d23fc86c1120b7"><td class="memItemLeft" align="right" valign="top"><a id="a347db2a0695072fdf8d23fc86c1120b7" name="a347db2a0695072fdf8d23fc86c1120b7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SendToAll&lt; T &gt;</b> (T data, Channel method=Channel.ReliableOrdered)</td></tr>
 <tr class="separator:a347db2a0695072fdf8d23fc86c1120b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05d3da92a5c52b61850abde4afe59543"><td class="memItemLeft" align="right" valign="top"><a id="a05d3da92a5c52b61850abde4afe59543" name="a05d3da92a5c52b61850abde4afe59543"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SendRaw</b> (<a class="el" href="structPurrNet_1_1Transports_1_1Connection.html">Connection</a> conn, <a class="el" href="structPurrNet_1_1Transports_1_1ByteData.html">ByteData</a> data, Channel method=Channel.ReliableOrdered)</td></tr>
-<tr class="separator:a05d3da92a5c52b61850abde4afe59543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3757860e24c8e7d4698d54d8bef30cf"><td class="memItemLeft" align="right" valign="top"><a id="ad3757860e24c8e7d4698d54d8bef30cf" name="ad3757860e24c8e7d4698d54d8bef30cf"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Send&lt; T &gt;</b> (<a class="el" href="structPurrNet_1_1Transports_1_1Connection.html">Connection</a> conn, T data, Channel method=Channel.ReliableOrdered)</td></tr>
 <tr class="separator:ad3757860e24c8e7d4698d54d8bef30cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa51b229fa451d2af01c38b191af98be7"><td class="memItemLeft" align="right" valign="top"><a id="aa51b229fa451d2af01c38b191af98be7" name="aa51b229fa451d2af01c38b191af98be7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Send&lt; T &gt;</b> (IReadOnlyList&lt; <a class="el" href="structPurrNet_1_1Transports_1_1Connection.html">Connection</a> &gt; conn, T data, Channel method=Channel.ReliableOrdered)</td></tr>
 <tr class="separator:aa51b229fa451d2af01c38b191af98be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a064746ad16d4d1de6b9553ed6eaf418e"><td class="memItemLeft" align="right" valign="top"><a id="a064746ad16d4d1de6b9553ed6eaf418e" name="a064746ad16d4d1de6b9553ed6eaf418e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Send</b> (IReadOnlyList&lt; <a class="el" href="structPurrNet_1_1Transports_1_1Connection.html">Connection</a> &gt; conn, <a class="el" href="structPurrNet_1_1Transports_1_1ByteData.html">ByteData</a> byteData, Channel method=Channel.ReliableOrdered)</td></tr>
-<tr class="separator:a064746ad16d4d1de6b9553ed6eaf418e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09e550491493b6c3d21e74f44442a3fe"><td class="memItemLeft" align="right" valign="top"><a id="a09e550491493b6c3d21e74f44442a3fe" name="a09e550491493b6c3d21e74f44442a3fe"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SendToServer&lt; T &gt;</b> (T data, Channel method=Channel.ReliableOrdered)</td></tr>
 <tr class="separator:a09e550491493b6c3d21e74f44442a3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,15 +149,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Enable</b> (bool asSe
 <tr class="memitem:ae614efb89b9166e27139455fb9856320"><td class="memItemLeft" align="right" valign="top"><a id="ae614efb89b9166e27139455fb9856320" name="ae614efb89b9166e27139455fb9856320"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Disable</b> (bool asServer)</td></tr>
 <tr class="separator:ae614efb89b9166e27139455fb9856320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8b5740dcea5f14e6ca5d1a776191fc48"><td class="memItemLeft" align="right" valign="top"><a id="a8b5740dcea5f14e6ca5d1a776191fc48" name="a8b5740dcea5f14e6ca5d1a776191fc48"></a>
-static <a class="el" href="structPurrNet_1_1Transports_1_1ByteData.html">ByteData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetImmediateData&lt; T &gt;</b> (T data)</td></tr>
-<tr class="separator:a8b5740dcea5f14e6ca5d1a776191fc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaa61f190f21545b275ddf712280aee7"><td class="memItemLeft" align="right" valign="top"><a id="aaaa61f190f21545b275ddf712280aee7" name="aaaa61f190f21545b275ddf712280aee7"></a>
-static <a class="el" href="structPurrNet_1_1Transports_1_1ByteData.html">ByteData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetData&lt; T &gt;</b> (T data)</td></tr>
-<tr class="separator:aaaa61f190f21545b275ddf712280aee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>

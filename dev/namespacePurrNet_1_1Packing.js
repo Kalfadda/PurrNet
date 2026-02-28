@@ -1,5 +1,6 @@
 var namespacePurrNet_1_1Packing =
 [
+    [ "BigStructSample", "structPurrNet_1_1Packing_1_1BigStructSample.html", null ],
     [ "BitData", "structPurrNet_1_1Packing_1_1BitData.html", null ],
     [ "BitDataScope", "structPurrNet_1_1Packing_1_1BitDataScope.html", null ],
     [ "BitPacker", "classPurrNet_1_1Packing_1_1BitPacker.html", "classPurrNet_1_1Packing_1_1BitPacker" ],
@@ -11,6 +12,7 @@ var namespacePurrNet_1_1Packing =
     [ "CompressedVector3", "structPurrNet_1_1Packing_1_1CompressedVector3.html", null ],
     [ "DeltaWritingScope", "structPurrNet_1_1Packing_1_1DeltaWritingScope.html", null ],
     [ "DiffOp", "structPurrNet_1_1Packing_1_1DiffOp.html", null ],
+    [ "DiffOpNative", "structPurrNet_1_1Packing_1_1DiffOpNative.html", null ],
     [ "GeneratedByILAttribute", "classPurrNet_1_1Packing_1_1GeneratedByILAttribute.html", null ],
     [ "Half", "structPurrNet_1_1Packing_1_1Half.html", "structPurrNet_1_1Packing_1_1Half" ],
     [ "HalfVector2", "structPurrNet_1_1Packing_1_1HalfVector2.html", null ],

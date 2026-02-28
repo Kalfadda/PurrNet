@@ -11,6 +11,7 @@ var hierarchy =
       [ "PurrNet.LocalModeAttribute", "classPurrNet_1_1LocalModeAttribute.html", null ],
       [ "PurrNet.PurrContextButtonAttribute", "classPurrNet_1_1PurrContextButtonAttribute.html", null ]
     ] ],
+    [ "PurrNet.AudioSourceState", "structPurrNet_1_1AudioSourceState.html", null ],
     [ "PurrNet.Authentication.AuthenticationBehaviour< string >", "classPurrNet_1_1Authentication_1_1AuthenticationBehaviour.html", [
       [ "PurrNet.Authentication.SimpleAuthenticator", "classPurrNet_1_1Authentication_1_1SimpleAuthenticator.html", null ]
     ] ],
@@ -100,6 +101,7 @@ var hierarchy =
       [ "PurrNet.Packing.BitPackerWithLength", "structPurrNet_1_1Packing_1_1BitPackerWithLength.html", null ],
       [ "PurrNet.Packing.BitPackerWrapper", "structPurrNet_1_1Packing_1_1BitPackerWrapper.html", null ],
       [ "PurrNet.Packing.DiffOp< T >", "structPurrNet_1_1Packing_1_1DiffOp.html", null ],
+      [ "PurrNet.Packing.DiffOpNative< T >", "structPurrNet_1_1Packing_1_1DiffOpNative.html", null ],
       [ "PurrNet.Pooling.DisposableArray< T >", "structPurrNet_1_1Pooling_1_1DisposableArray.html", null ],
       [ "PurrNet.Pooling.DisposableDictionary< TKey, TValue >", "structPurrNet_1_1Pooling_1_1DisposableDictionary.html", null ],
       [ "PurrNet.Pooling.DisposableHashSet< T >", "structPurrNet_1_1Pooling_1_1DisposableHashSet.html", null ],
@@ -231,6 +233,7 @@ var hierarchy =
     [ "PurrNet.InterpolatedWithDispose< T >", "classPurrNet_1_1InterpolatedWithDispose.html", null ],
     [ "PurrNet.IOwnerAuth", "interfacePurrNet_1_1IOwnerAuth.html", null ],
     [ "PurrNet.Packing.IPacked", "interfacePurrNet_1_1Packing_1_1IPacked.html", [
+      [ "PurrNet.AudioSourceDelta", "structPurrNet_1_1AudioSourceDelta.html", null ],
       [ "PurrNet.StateMachine.StateMachineState", "structPurrNet_1_1StateMachine_1_1StateMachineState.html", null ]
     ] ],
     [ "PurrNet.Packing.IPackedAuto", "interfacePurrNet_1_1Packing_1_1IPackedAuto.html", [
@@ -259,6 +262,7 @@ var hierarchy =
       [ "PurrNet.Modules.TransformInfo", "structPurrNet_1_1Modules_1_1TransformInfo.html", null ],
       [ "PurrNet.NetworkIdentityRPCHeader", "structPurrNet_1_1NetworkIdentityRPCHeader.html", null ],
       [ "PurrNet.NetworkModuleRPCHeader", "structPurrNet_1_1NetworkModuleRPCHeader.html", null ],
+      [ "PurrNet.Packing.BigStructSample", "structPurrNet_1_1Packing_1_1BigStructSample.html", null ],
       [ "PurrNet.Packing.HalfVector2", "structPurrNet_1_1Packing_1_1HalfVector2.html", null ],
       [ "PurrNet.Packing.HalfVector3", "structPurrNet_1_1Packing_1_1HalfVector3.html", null ],
       [ "PurrNet.Packing.HalfVector4", "structPurrNet_1_1Packing_1_1HalfVector4.html", null ],
@@ -289,6 +293,10 @@ var hierarchy =
     ] ],
     [ "PurrNet.IPlayerEvents", "interfacePurrNet_1_1IPlayerEvents.html", null ],
     [ "PurrNet.IPrefabProvider", "interfacePurrNet_1_1IPrefabProvider.html", [
+      [ "PurrNet.CompositePrefabProvider", "classPurrNet_1_1CompositePrefabProvider.html", null ],
+      [ "PurrNet.IAsyncPrefabProvider", "interfacePurrNet_1_1IAsyncPrefabProvider.html", [
+        [ "PurrNet.CompositePrefabProvider", "classPurrNet_1_1CompositePrefabProvider.html", null ]
+      ] ],
       [ "PurrNet.PrefabProviderScriptable", "classPurrNet_1_1PrefabProviderScriptable.html", [
         [ "PurrNet.NetworkPrefabs", "classPurrNet_1_1NetworkPrefabs.html", null ]
       ] ]
@@ -337,6 +345,7 @@ var hierarchy =
     [ "PurrNet.Packing.IStandaloneSerializable", "interfacePurrNet_1_1Packing_1_1IStandaloneSerializable.html", null ],
     [ "PurrNet.StateMachine.IStateCommand", "interfacePurrNet_1_1StateMachine_1_1IStateCommand.html", null ],
     [ "PurrNet.ITick", "interfacePurrNet_1_1ITick.html", [
+      [ "PurrNet.NetworkAudioSource", "classPurrNet_1_1NetworkAudioSource.html", null ],
       [ "PurrNet.NetworkReflection", "classPurrNet_1_1NetworkReflection.html", null ],
       [ "PurrNet.NetworkRigidbody", "classPurrNet_1_1NetworkRigidbody.html", null ],
       [ "PurrNet.ReliableDeltaStream< T >", "classPurrNet_1_1ReliableDeltaStream.html", null ],
@@ -361,6 +370,7 @@ var hierarchy =
       [ "PurrNet.BandwidthProfilerToFile", "classPurrNet_1_1BandwidthProfilerToFile.html", null ],
       [ "PurrNet.NetworkIdentity", "classPurrNet_1_1NetworkIdentity.html", [
         [ "PurrNet.NetworkAnimator", "classPurrNet_1_1NetworkAnimator.html", null ],
+        [ "PurrNet.NetworkAudioSource", "classPurrNet_1_1NetworkAudioSource.html", null ],
         [ "PurrNet.NetworkBehaviour", "classPurrNet_1_1NetworkBehaviour.html", [
           [ "PurrNet.StateMachine.StateMachine", "classPurrNet_1_1StateMachine_1_1StateMachine.html", null ],
           [ "PurrNet.StateMachine.StateNode< T >", "classPurrNet_1_1StateMachine_1_1StateNode.html", null ]
@@ -379,7 +389,6 @@ var hierarchy =
       [ "PurrNet.PurrMonoBehaviour", "classPurrNet_1_1PurrMonoBehaviour.html", null ],
       [ "PurrNet.PurrSceneInfo", "classPurrNet_1_1PurrSceneInfo.html", null ],
       [ "PurrNet.RawNetManager", "classPurrNet_1_1RawNetManager.html", null ],
-      [ "PurrNet.SaveHasherInFile", "classPurrNet_1_1SaveHasherInFile.html", null ],
       [ "PurrNet.StatisticsManager", "classPurrNet_1_1StatisticsManager.html", null ],
       [ "PurrNet.Transports.GenericTransport", "classPurrNet_1_1Transports_1_1GenericTransport.html", [
         [ "PurrNet.Transports.CompositeTransport", "classPurrNet_1_1Transports_1_1CompositeTransport.html", null ],
