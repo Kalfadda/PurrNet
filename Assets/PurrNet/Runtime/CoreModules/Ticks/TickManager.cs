@@ -137,6 +137,22 @@ namespace PurrNet.Modules
             }
         }
 
+        private static void SafeInvoke(Action action)
+        {
+            if (action == null) return;
+            foreach (var handler in action.GetInvocationList())
+            {
+                try
+                {
+                    ((Action)handler).Invoke();
+                }
+                catch (Exception ex)
+                {
+                    Debug.LogException(ex);
+                }
+            }
+        }
+
         private void HandleTick()
         {
             int ticksHandled = 0;
@@ -151,16 +167,16 @@ namespace PurrNet.Modules
                 bool triggerNormalTicks = ticksHandled < MaxTickPerFrame;
 
                 if (triggerNormalTicks)
-                    onPreTick?.Invoke();
-                onReliablePreTick?.Invoke();
+                    SafeInvoke(onPreTick);
+                SafeInvoke(onReliablePreTick);
 
                 if (triggerNormalTicks)
-                    onTick?.Invoke();
-                onReliableTick?.Invoke();
+                    SafeInvoke(onTick);
+                SafeInvoke(onReliableTick);
 
                 if (triggerNormalTicks)
-                    onPostTick?.Invoke();
-                onReliablePostTick?.Invoke();
+                    SafeInvoke(onPostTick);
+                SafeInvoke(onReliablePostTick);
 
                 ticksHandled++;
             }

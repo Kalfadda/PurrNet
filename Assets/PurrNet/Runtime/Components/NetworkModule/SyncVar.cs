@@ -145,13 +145,18 @@ namespace PurrNet
 
         public override void OnDespawned()
         {
-            if (isControllingSyncVar)
+            try
             {
-                _id += 1;
-                FlushImmediately();
+                if (isControllingSyncVar)
+                {
+                    _id += 1;
+                    FlushImmediately();
+                }
             }
-
-            UnsubscribeFromTickManager();
+            finally
+            {
+                UnsubscribeFromTickManager();
+            }
         }
 
         public void SetDirty()
